@@ -1,143 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Final Project</title>
-    <style>
-
-  * {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: serif;
-  background-color: #ffffff;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-}
-
-header {
-  display: flex;
-  gap: 10px;
-  padding-top: 50px;
-  padding-left: 40px;
-  font-size: 16px;
-  font-family: "Inter", sans-serif;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-header a {
-  color: black;
-}
-
-
-.grid-layout {
-  display: grid;
-  place-items: center;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  height: 70vh;
-  width: 100%;
-  text-align: center;
-  font-size: 4rem;
-  font-weight: 600;
-  line-height: 1.2;
-}
-
-.word1 {
-  grid-column: 2 / 4;
-  grid-row: 1 / 2;
-}
-.word2 {
-  grid-column: 2 / 4;
-  grid-row: 2 / 3;
-}
-.word3 {
-  grid-column: 2 / 4;
-  grid-row: 3 / 4;
-}
-.word4 {
-  grid-column: 2 / 4;
-  grid-row: 4 / 5;
-}
-
-.grid-layout img {
-  width: 40px;
-  height: 40px;
-  vertical-align: middle;
-  margin-right: 0.5rem;
-}
-
-.grid-layout p {
-  display: inline;
-  font-size: 3.5rem;
-}
-
-.bottom-left-text {
-  position: absolute;
-  bottom: 70px;
-  left: 60px;
-  font-size: 14px;
-  color: #000000;
-}
-
-
-.scroll-down {
-  position: absolute;
-  bottom: 60px;
-  right: 60px;
-  font-size: 60px;
-  cursor: pointer;
-}
-
-    </style>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <li><a href="Work">Work</a></li>
-      <li><a href="Hobbies">Hobbies</a></li>
-      <li><a href="Blogs">Blogs</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">Hobbies</a></li>
+      <li><a href="#">Blogs</a></li>
     </header>
 
     <div class="grid-layout">
-        <div class="word1">
-          <img src="eye.jpeg"/>
-          <p>PERCEIVE</p>
-        </div>
-        <div class="word2">
-          <img src="leaf.jpg"/>
-          <p>ABSORB</p>
-        </div>
-        <div class="word3">
-          <img src="prism.jpg"/>
-          <p>ANALYZE</p>
-        </div>
-        <div class="word4">
-          <img src="apple.png"/>
-          <p>CREATE</p>
-        </div>
+      <div class="word word1">
+        <img src="eye.jpeg" alt="Eye" />
+        <p>PERCEIVE</p>
       </div>
+      <div class="word word2">
+        <img src="leaf.jpg" alt="Leaf" />
+        <p>ABSORB</p>
+      </div>
+      <div class="word word3">
+        <img src="prism.jpg" alt="Prism" />
+        <p>ANALYZE</p>
+      </div>
+      <div class="word word4">
+        <img src="apple.png" alt="Apple" />
+        <p>CREATE</p>
+      </div>
+    </div>
 
-      <div class="bottom-left-text">
-        <p>Lorem ipsum dolor sit amet<br/>lorem ipsum dolor sit amet</p>
-      </div>
+    <div class="bottom-left-text">
+      <p>Lorem ipsum dolor sit amet<br />lorem ipsum dolor sit amet</p>
+    </div>
 
-      <div class="scroll-down">
-      <span> ↓ </span>
-      </div>
-    </main>
+    <div class="scroll-down">
+      <span>↓</span>
+    </div>
   </body>
 </html>

@@ -1,3 +1,93 @@
-li {
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'GFS Didot', serif;
+  background-image: url('Homepage grid.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+header li {
   list-style: none;
 }
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+.word img {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.word1 {
+  margin-top: -80px;
+  margin-left: 650px;
+  font-family: "GFS Didot", serif;
+  font-weight: 500;
+  font-size: 85px;
+}
+
+.word2 {
+  margin-top: -300px;
+  margin-left: 495px;
+  font-family: "GFS Didot", serif;
+  font-weight: 500;
+  font-size: 85px;
+}
+
+
+.word3 {
+   margin-top: -300px;
+  margin-left: 670px;
+  font-family: "GFS Didot", serif;
+  font-weight: 500;
+  font-size: 85px;
+
+}
+
+.word4 {
+   margin-top: -300px;
+  margin-left: 495px;
+  font-family: "GFS Didot", serif;
+  font-weight: 500;
+  font-size: 85px;
+
+}
+
+.bottom-left-text {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  font-size: 50px;
+
+}
+</style>
