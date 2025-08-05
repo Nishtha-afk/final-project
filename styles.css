@@ -44,8 +44,8 @@ header a {
 }
 
 .image1 {
-  height: 50px;
-  width: 60px;
+  height: 55px;
+  width: 65px;
   margin-left: 580px;
   margin-top: 115px;
   position: fixed;
@@ -54,41 +54,6 @@ header a {
 
 .word2 {
   margin-top: 125px;
-  margin-left: 652px;
-  font-family: "GFS Didot", serif;
-  font-weight: 550;
-  font-size: 85px;
-  position: fixed;
-}
-
-.image2 {
-  height: 40px;
-  width: 40px;
-  margin-top: -800px;
-  position: fixed;
-}
-
-
-
-.word3 {
-   margin-top: 100px;
-  margin-left: 652px;
-  font-family: "GFS Didot", serif;
-  font-weight: 550;
-  font-size: 85px;
-  position: fixed;
-
-}
-.image3 {
-  height: 40px;
-  width: 40px;
-  margin-top: -100px;
-  position: fixed;
-}
-
-
-.word4 {
-   margin-top: 295px;
   margin-left: 495px;
   font-family: "GFS Didot", serif;
   font-weight: 550;
@@ -96,9 +61,48 @@ header a {
   position: fixed;
 }
 
+.image2 {
+  height: 45px;
+  width: 45px;
+  margin-left: 845px;
+  margin-top: 240px;
+  position: fixed
+}
+
+
+
+.word3 {
+   margin-top: 210px;
+  margin-left: 670px;
+  font-family: "GFS Didot", serif;
+  font-weight: 550;
+  font-size: 85px;
+  position: fixed;
+
+}
+.image3 {
+  height: 50px;
+  width: 50px;
+  margin-top: 325px;
+  position: fixed;
+  margin-left: 610px;
+}
+
+
+.word4 {
+  margin-top: 295px;
+  margin-left: 495px;
+  font-family: "GFS Didot", serif;
+  font-weight: 580;
+  font-size: 85px;
+  position: fixed;
+  display: inline-block;
+  transform: scaleX(1);
+}
+
 .image4 {
-  height: 80px;
-  width: 80px;
+  height: 85px;
+  width: 85px;
   margin-left: 830px;
   margin-top: 420px;
   position: fixed
