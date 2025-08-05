@@ -93,11 +93,10 @@ header a {
   margin-top: 295px;
   margin-left: 495px;
   font-family: "GFS Didot", serif;
-  font-weight: 580;
+  font-weight: 599;
   font-size: 85px;
   position: fixed;
-  display: inline-block;
-  transform: scaleX(1);
+
 }
 
 .image4 {
