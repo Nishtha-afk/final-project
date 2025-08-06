@@ -35,8 +35,8 @@ header a {
 
 
 .gif1 {
-  margin-top: 50px;
-  margin-left: 652px;
+  margin-top: 15px;
+  margin-left: 645px;
   position: fixed;
 
 }
@@ -50,12 +50,9 @@ header a {
 }
 
 
-.word2 {
-  margin-top: 125px;
-  margin-left: 495px;
-  font-family: "GFS Didot", serif;
-  font-weight: 550;
-  font-size: 85px;
+.gif2 {
+  margin-top: 105px;
+  margin-left: 440px;
   position: fixed;
 }
 
