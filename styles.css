@@ -51,7 +51,7 @@ header a {
 
 
 .gif2 {
-  margin-top: 105px;
+  margin-top: 100px;
   margin-left: 440px;
   position: fixed;
 }
@@ -66,30 +66,24 @@ header a {
 
 
 
-.word3 {
-   margin-top: 210px;
-  margin-left: 670px;
-  font-family: "GFS Didot", serif;
-  font-weight: 550;
-  font-size: 85px;
+.gif3 {
+   margin-top: 270px;
+  margin-left: 640px;
   position: fixed;
-
 }
+
 .image3 {
   height: 50px;
   width: 50px;
   margin-top: 325px;
   position: fixed;
-  margin-left: 610px;
+  margin-left: 590px;
 }
 
 
-.word4 {
-  margin-top: 295px;
-  margin-left: 495px;
-  font-family: "GFS Didot", serif;
-  font-weight: 599;
-  font-size: 85px;
+.gif4 {
+  margin-top: 285px;
+  margin-left: 500px;
   position: fixed;
 
 }
@@ -97,10 +91,11 @@ header a {
 .image4 {
   height: 85px;
   width: 85px;
-  margin-left: 830px;
+  margin-left: 880px;
   margin-top: 420px;
   position: fixed
 }
+
 
 .bottom-left-text {
   position: absolute;
