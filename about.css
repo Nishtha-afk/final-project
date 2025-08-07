@@ -1,0 +1,89 @@
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("About Page Grid.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+header li {
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+.scroll-up {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  font-size: 50px;
+}
+
+.me {
+  height: 390px;
+  width: 260px;
+  margin-left: 1082px;
+  margin-top: 128px;
+  position: fixed;
+}
+
+.text1 {
+  font-family: "Inter", sans-serif;
+  width: 200px;
+  margin-top: -10px;
+  margin-left: 465px;
+  position: fixed;
+  font-size: 14px;
+}
+
+.text2 {
+  font-family: "Inter", sans-serif;
+  width: 210px;
+  margin-top: 30px;
+  margin-left: 675px;
+  position: fixed;
+  color: #2F30D6;
+  font-size: 25px;
+
+}
+
+.text3 {
+  font-family: "Inter", sans-serif;
+  width: 160px;
+  margin-top: 150px;
+  margin-left: 470px;
+  position: fixed;
+  text-align: right;
+  font-size: 20px;
+}
+
+.text4 {
+  font-family: "Inter", sans-serif;
+  width: 235px;
+  margin-top: 290px;
+  margin-left: 680px;
+  position: fixed;
+  text-align: justify;
+  font-size: 14px;
+}
+</style>
