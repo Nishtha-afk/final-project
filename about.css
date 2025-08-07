@@ -73,7 +73,7 @@ nav a:hover {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 1.4;
-  margin-top: -70px;
+  margin-top: -75px;
   margin-left: -30px;
   text-align: right;
   justify-self: center;
@@ -89,11 +89,14 @@ nav a:hover {
   text-align: justify;
   padding-right: 40px;
 }
+
 .image-block {
   grid-column: 4 / 4;
-  grid-row: 1 / 4;
-  justify-self: start;
+  grid-row: 2 / 3;
+  justify-self: flex-start;
   align-self: center;
+  margin-top: -113px;
+  margin-left: -37px;
 }
 
 .image-block img {
