@@ -3,6 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-image: url("images/aboutpage-grid.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
 
 nav {
   position: relative;
@@ -26,4 +36,69 @@ nav a {
 
 nav a:hover {
   opacity: 0.6;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 33.33vh);
+  gap: 0;
+  width: 100%;
+  height: calc(100vh - 80px); /* Adjust based on nav height */
+  padding: 0 40px;
+  position: relative;
+}
+.top-left-text {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+}
+.intro-text {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  align-self: end;
+  justify-self: start;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #000;
+}
+.intro-text strong {
+  color: #1a40f2;
+  font-weight: 700;
+}
+.title {
+  grid-column: 2 / 2;
+  grid-row: 2 / 3;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-top: -70px;
+  margin-left: -30px;
+  text-align: right;
+  justify-self: center;
+  line-height: 22px;
+}
+
+.description {
+  grid-column: 3 / 3;
+  grid-row: 2 / 3;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: justify;
+  padding-right: 40px;
+}
+.image-block {
+  grid-column: 4 / 4;
+  grid-row: 1 / 4;
+  justify-self: start;
+  align-self: center;
+}
+
+.image-block img {
+  max-height: 350px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 2px;
 }
