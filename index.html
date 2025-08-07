@@ -1,8 +1,176 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perceive Absorb Analyze Create</title>
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "GFS Didot", serif;
+        background-image: url("images/homepage-grid.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        position: relative;
+        overflow: hidden;
+      }
+
+      /* Navigation */
+      nav {
+        position: relative;
+        z-index: 10;
+        padding: 40px;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #000;
+        transition: opacity 0.3s;
+      }
+
+      nav a:hover {
+        opacity: 0.6;
+      }
+
+      /* Main content container */
+      .main-content {
+        position: relative;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: calc(100vh - 200px);
+        padding: 40px 20px;
+      }
+
+      /* Text with images */
+      .text-line {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -10px 0;
+      }
+
+      .text-line h1 {
+        font-size: 90px;
+        font-weight: normal;
+        letter-spacing: 8px;
+        color: #000;
+        display: inline-flex;
+        align-items: center;
+      }
+
+      .inline-image {
+        display: inline-block;
+        margin: 0 15px;
+        vertical-align: middle;
+      }
+
+      .inline-image img {
+        display: block;
+        object-fit: cover;
+      }
+
+      .eye-image img {
+        width: 65px;
+        height: 55px;
+      }
+
+      .leaf-image img {
+        width: 45px;
+        height: 45px;
+      }
+
+      .prism-image img {
+        width: 50px;
+        height: 50px;
+      }
+
+      .apple-image img {
+        width: 85px;
+        height: 85px;
+      }
+
+      .lorem-section {
+        position: absolute;
+        bottom: 60px;
+        left: 60px;
+        font-size: 14px;
+        line-height: 1.4;
+        color: #000;
+        font-family: "Inter", sans-serif;
+        z-index: 10;
+      }
+
+      .scroll-down {
+        position: absolute;
+        bottom: 60px;
+        right: 60px;
+        font-size: 50px;
+        color: #000;
+        z-index: 10;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .text-line h1 {
+          font-size: 50px;
+          letter-spacing: 4px;
+        }
+
+        .inline-image {
+          margin: 0 8px;
+        }
+
+        .eye-image img {
+          width: 40px;
+          height: 35px;
+        }
+
+        .leaf-image img,
+        .prism-image img {
+          width: 30px;
+          height: 30px;
+        }
+
+        .apple-image img {
+          width: 50px;
+          height: 50px;
+        }
+
+        nav {
+          padding: 20px;
+        }
+
+        .lorem-section {
+          bottom: 30px;
+          left: 30px;
+          font-size: 12px;
+        }
+
+        .scroll-down {
+          bottom: 30px;
+          right: 30px;
+          font-size: 30px;
+        }
+      }
+    </style>
     <link
       href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap"
       rel="stylesheet"
@@ -13,42 +181,61 @@
     />
   </head>
   <body>
-    <header>
-      <li><a href="#">Another </a></li>
-      <li><a href="#">Link</a></li>
-      <li><a href="#">Menu</a></li>
-    </header>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Hobbies</a></li>
+        <li><a href="#">Blogs</a></li>
+      </ul>
+    </nav>
 
-    <div class="gif1">
-      <img width="445px" src="gif/perceive-gif.gif" />
+    <!-- Main content -->
+    <div class="main-content">
+      <!-- PERCEIVE with eye image -->
+      <div class="text-line">
+        <span class="inline-image eye-image">
+          <img src="images/eye.jpeg" />
+        </span>
+        <img src="gif/perceive-gif.gif" width="400px" />
+      </div>
+
+      <!-- ABSORB with leaf image -->
+      <div class="text-line">
+        <img src="gif/absorb-gif.gif" width="400px" />
+        <span class="inline-image leaf-image">
+          <img src="images/leaf.jpg" />
+        </span>
+      </div>
+
+      <!-- ANALYZE with prism image -->
+      <div class="text-line">
+        <span class="inline-image prism-image">
+          <img src="images/prism.jpg" />
+        </span>
+        <img src="gif/analyze-gif.gif" width="400px" />
+      </div>
+
+      <!-- CREATE with apple image -->
+      <div class="text-line">
+        <h1>
+          <img src="gif/create-gif.gif" width="400px" />
+          <span class="inline-image apple-image">
+            <img src="images/apple.png" />
+          </span>
+        </h1>
+      </div>
     </div>
 
-    <img class="image1" src="images/eye.jpeg" alt="Eye" />
-
-    <div class="gif2">
-      <img width="445px" src="gif/absorb-gif.gif" />
+    <!-- Lorem ipsum section -->
+    <div class="lorem-section">
+      Lorem ipsum dolor sit amet<br />
+      lorem ipsum dolor sit amet
     </div>
 
-    <img class="image2" src="images/leaf.jpg" alt="Leaf" />
-
-    <div class="gif3">
-      <img width="545px" src="gif/analyze-gif.gif" />
-    </div>
-
-    <img class="image3" src="images/prism.jpg" alt="Prism" />
-
-    <div class="gif4">
-      <img width="445px" src="gif/create-gif.gif" />
-    </div>
-
-    <img class="image4" src="images/apple.png" alt="Apple" />
-
-    <div class="bottom-text">
-      <p>Lorem ipsum dolor and some other thing sit amet<br />lorem ipsum dolor sit amet</p>
-    </div>
-
+    <!-- Scroll down arrow -->
     <div class="scroll-down">
-      <a href="/about.html"><span>↓</span></a>
+      <span>↓</span>
     </div>
   </body>
 </html>
