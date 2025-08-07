@@ -53,31 +53,42 @@ nav a:hover {
   font-size: 12px;
   line-height: 1.5;
   font-family: "Inter", sans-serif;
+  width: 180px;
+  font-size: 14px;
+  margin-left: 65px;
+  margin-top: 10px;
 }
 .intro-text {
   grid-column: 3 / 4;
   grid-row: 1 / 2;
-  align-self: end;
+  align-self: flex-start;
   justify-self: start;
   font-family: "Inter", sans-serif;
   font-size: 20px;
-  color: #000;
+  color: #2F30D6;
+  font-weight: 700;
+  margin-top: 60px;
+  width: 150px;
+  margin-left: -80px;
+  line-height: 30px;
+
 }
+
 .intro-text strong {
-  color: #1a40f2;
+  color: #2F30D6;
   font-weight: 700;
 }
 .title {
   grid-column: 2 / 2;
   grid-row: 2 / 3;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
-  margin-top: -75px;
+  margin-top: -90px;
   margin-left: -30px;
   text-align: right;
   justify-self: center;
-  line-height: 22px;
+  line-height: 27px;
 }
 
 .description {
@@ -87,7 +98,10 @@ nav a:hover {
   font-size: 14px;
   line-height: 1.6;
   text-align: justify;
-  padding-right: 40px;
+  justify-self: flex-start;
+  margin-top: 60px;
+  margin-left: -70px;
+  width: 280px;
 }
 
 .image-block {
@@ -105,3 +119,15 @@ nav a:hover {
   object-fit: cover;
   border-radius: 2px;
 }
+.scroll-up {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  font-size: 50px;
+  color: #000;
+  z-index: 10;
+  transition: opacity 0.3s;
+  text-decoration: none;
+}
+
+
