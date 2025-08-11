@@ -62,12 +62,6 @@ nav a:hover {
   justify-content: left;
 }
 
-.research {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-  font-size: 14px;
-}
-
 .section1 {
   grid-column: 3 / 6;
   grid-row: 2 / 6;
