@@ -28,7 +28,6 @@
         overflow: hidden;
         font-family: "Inter", sans-serif;
         display: flex;
-
       }
 
       nav {
@@ -56,16 +55,31 @@
       }
 
       .text {
-        color: #2F30D6ff;
+        color: #2f30d6ff;
         font-size: 25px;
         width: 480px;
         text-align: center;
         font-family: "GFS Didot", serif;
-          justify-content: center;
+        justify-content: center;
         align-items: center;
         display: flex;
         margin-left: 150px;
+      }
+      .scroll-right {
+        position: absolute;
+        bottom: 70px;
+        right: 80px;
+        font-size: 50px;
+        color: #000;
+        z-index: 10;
+        transition: opacity 0.3s;
+        font-family: didot, sans-serif;
+      }
 
+      .scroll-right a {
+        text-decoration: none;
+        color: #000;
+        font-size: 50px;
       }
     </style>
   </head>
@@ -79,7 +93,11 @@
       </ul>
     </nav>
     <div class="text">
-      “Great designers are not just artists; they’re cooks, storytellers, engineers, and dreamers all at once."
+      “Great designers are not just artists; they’re cooks, storytellers,
+      engineers, and dreamers all at once."
+    </div>
+    <div class="scroll-right">
+      <a href="hobbbiespage1.html"><span>→</span></a>
     </div>
   </body>
 </html>
