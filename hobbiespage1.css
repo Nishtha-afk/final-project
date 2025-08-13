@@ -73,7 +73,7 @@ nav a:hover {
   justify-self: center;
   font-family: "GFS Didot", serif;
   margin-right: 110px;
-  margin-bottom: 300px;
+  margin-bottom: 320px;
 }
 
 /* Big noodle bowl */
@@ -111,6 +111,8 @@ nav a:hover {
   color: black;
   max-width: 250px;
   align-self: center;
+  margin-top: -110px;
+  text-align: justify;
 }
 
 /* Second paragraph */
@@ -121,4 +123,6 @@ nav a:hover {
   color: black;
   max-width: 250px;
   align-self: center;
+  margin-top: -170px;
+  text-align: justify;
 }
